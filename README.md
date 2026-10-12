@@ -56,4 +56,4 @@ https://student-dashboard-nu-blush.vercel.app/
 
 ## 👨‍💻 Author
 
-**Arien Khardiya**
+**Yash Shinde**
