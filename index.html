@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - EduAdmin</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="auth-wrapper">
+        <div class="auth-card">
+            <div class="text-center mb-4">
+                <div class="d-inline-flex align-items-center justify-content-center bg-primary text-white rounded-circle mb-3 shadow-sm"
+                    style="width: 64px; height: 64px; font-size: 32px;">
+                    <i class="bi bi-mortarboard-fill"></i>
+                </div>
+                <h3 class="fw-bold text-dark">Welcome Back</h3>
+                <p class="text-muted">Sign in to manage your students</p>
+            </div>
+
+            <form id="loginForm">
+                <div class="mb-3">
+                    <label for="email" class="form-label fw-medium text-dark">Email address</label>
+                    <input type="email" class="form-control" id="email" placeholder="admin@example.com" required>
+                </div>
+                <div class="mb-4">
+                    <div class="d-flex justify-content-between mb-1">
+                        <label for="password" class="form-label fw-medium text-dark mb-0">Password</label>
+                        <a href="#" class="text-primary text-decoration-none small fw-medium">Forgot password?</a>
+                    </div>
+                    <input type="password" class="form-control" id="password" placeholder="••••••••" required>
+                </div>
+                <div class="mb-4 form-check">
+                    <input type="checkbox" class="form-check-input" id="rememberMe">
+                    <label class="form-check-label text-muted" for="rememberMe">Remember me</label>
+                </div>
+                <button type="submit"
+                    class="btn btn-primary w-100 py-2 fs-5 d-flex justify-content-center align-items-center gap-2">
+                    <span>Sign In</span>
+                    <i class="bi bi-arrow-right"></i>
+                </button>
+            </form>
+            <div class="mt-4 text-center">
+                <p class="text-muted small">Don't have an account? <a href="#"
+                        class="text-primary text-decoration-none fw-medium">Request access</a></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/auth.js"></script>
+</body>
+
+</html>
